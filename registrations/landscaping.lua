@@ -1,0 +1,9 @@
+haystack
+hedge
+metal_ingots
+planted_bush
+rope_bridge
+stone_curb
+stone_curb_2
+stone_curb_3
+tall_bush
