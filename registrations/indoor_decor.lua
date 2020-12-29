@@ -7,10 +7,10 @@ node_definition ={
         mesh = "armor.obj",
         sunlight_propagates = true,
         paramtype2 = "facedir",
-        tiles = {"armor.png"},
+        tiles = {"armor.jpg"},
         groups = { oddly_breakable_by_hand=2 },
 }
-autobox.register_node("adventure_pack_1:armor","armor.box",node_definition,true)
+autobox.register_node_gz("adventure_pack_1:armor","armor.box.gz",node_definition,true)
 
 node_definition ={
 	description =  "adventure_pack_1:barrel_and_scrolls",
@@ -18,10 +18,10 @@ node_definition ={
         mesh = "barrel_and_scrolls.obj",
         sunlight_propagates = true,
         paramtype2 = "facedir",
-        tiles = {"barrel_and_scrolls.png"},
+        tiles = {"barrel_and_scrolls.jpg"},
         groups = { oddly_breakable_by_hand=2 },
 }
-autobox.register_node("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box",node_definition,true)
+autobox.register_node_gz("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box.gz",node_definition,true)
 
 
 -- barrel_and_scrolls
