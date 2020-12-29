@@ -8,9 +8,20 @@ node_definition ={
         sunlight_propagates = true,
         paramtype2 = "facedir",
         tiles = {"armor.png"},
-        groups = { cracky=2 },
+        groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:armor","armor.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:barrel_and_scrolls",
+	drawtype = "mesh",
+        mesh = "barrel_and_scrolls.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"barrel_and_scrolls.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box",node_definition,true)
 
 
 -- barrel_and_scrolls
