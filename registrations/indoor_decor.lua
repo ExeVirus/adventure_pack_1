@@ -88,8 +88,17 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:bunk_bed","bunk_bed.box",node_definition,true)
 
--- bunk_bed
--- candlabra
+node_definition ={
+	description =  "adventure_pack_1:candlabra",
+	drawtype = "mesh",
+        mesh = "candlabra.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"candlabra.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:candlabra","candlabra.box",node_definition,true)
+
 -- case_of_barrels
 -- case_of_scrolls
 -- chandelier
