@@ -1,6 +1,5 @@
 --INDOOR_DECOR registrations
 
--- armor
 node_definition ={
 	description =  "adventure_pack_1:armor",
 	drawtype = "mesh",
@@ -10,7 +9,7 @@ node_definition ={
         tiles = {"armor.jpg"},
         groups = { oddly_breakable_by_hand=2 },
 }
-autobox.register_node_gz("adventure_pack_1:armor","armor.box.gz",node_definition,true)
+autobox.register_node("adventure_pack_1:armor","armor.box",node_definition,true)
 
 node_definition ={
 	description =  "adventure_pack_1:barrel_and_scrolls",
@@ -21,14 +20,40 @@ node_definition ={
         tiles = {"barrel_and_scrolls.jpg"},
         groups = { oddly_breakable_by_hand=2 },
 }
-autobox.register_node_gz("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box.gz",node_definition,true)
+autobox.register_node("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box",node_definition,true)
 
+node_definition ={
+	description =  "adventure_pack_1:bed",
+	drawtype = "mesh",
+        mesh = "bed.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"bed.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:bed","bed.box",node_definition,true)
 
--- barrel_and_scrolls
--- bed
--- bed_2 (bed.obj)
--- bed_cot
--- big_stack_of_books
+node_definition ={
+	description =  "adventure_pack_1:bed_cot",
+	drawtype = "mesh",
+        mesh = "bed_cot.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"bed_cot.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:bed_cot","bed_cot.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:big_stack_of_books",
+	drawtype = "mesh",
+        mesh = "big_stack_of_books.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"big_stack_of_books.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:big_stack_of_books","big_stack_of_books.box",node_definition,true)
 -- bucket
 -- bunk_bed_with_stuff
 -- bunk_beds
