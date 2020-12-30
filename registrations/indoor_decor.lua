@@ -54,6 +54,17 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:big_stack_of_books","big_stack_of_books.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:bucket",
+	drawtype = "mesh",
+        mesh = "bucket.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"bucket.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:bucket","bucket.box",node_definition,true)
 -- bucket
 -- bunk_bed_with_stuff
 -- bunk_beds
