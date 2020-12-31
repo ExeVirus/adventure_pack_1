@@ -154,10 +154,50 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:drawing_table","drawing_table.box",node_definition,true)
 
--- fish_barrel
--- food_plate
--- food_plate_2
--- food_plate_3
+node_definition ={
+	description =  "adventure_pack_1:fish_barrel",
+	drawtype = "mesh",
+        mesh = "fish_barrel.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"fish_barrel.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:fish_barrel","fish_barrel.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:food_plate",
+	drawtype = "mesh",
+        mesh = "food_plate.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"food_plate.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:food_plate","food_plate.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:food_plate_2",
+	drawtype = "mesh",
+        mesh = "food_plate_2.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"food_plate.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:food_plate_2","food_plate.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:food_plate_3",
+	drawtype = "mesh",
+        mesh = "food_plate_3.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"food_plate.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:food_plate_3","food_plate.box",node_definition,true)
+
 -- grandfather_clock
 -- lantern
 -- pen_and_quill
