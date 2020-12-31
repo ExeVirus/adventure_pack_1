@@ -143,7 +143,17 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:crates","crates.box",node_definition,true)
 
--- drawing_table
+node_definition ={
+	description =  "adventure_pack_1:drawing_table",
+	drawtype = "mesh",
+        mesh = "drawing_table.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"case_of_barrels.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:drawing_table","drawing_table.box",node_definition,true)
+
 -- fish_barrel
 -- food_plate
 -- food_plate_2
