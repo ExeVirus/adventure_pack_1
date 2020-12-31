@@ -28,7 +28,7 @@ node_definition ={
         mesh = "bed.obj",
         sunlight_propagates = true,
         paramtype2 = "facedir",
-        tiles = {"bed.jpg"},
+        tiles = {"bunk_bed.png"},
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bed","bed.box",node_definition,true)
@@ -72,7 +72,7 @@ node_definition ={
         mesh = "bunk_bed_messy.obj",
         sunlight_propagates = true,
         paramtype2 = "facedir",
-        tiles = {"bunk_bed_messy.jpg"},
+        tiles = {"bunk_bed.png"},
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bunk_bed_messy","bunk_bed.box",node_definition,true)
@@ -83,7 +83,7 @@ node_definition ={
         mesh = "bunk_bed.obj",
         sunlight_propagates = true,
         paramtype2 = "facedir",
-        tiles = {"bunk_bed.jpg"},
+        tiles = {"bunk_bed.png"},
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bunk_bed","bunk_bed.box",node_definition,true)
@@ -99,10 +99,50 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:candlabra","candlabra.box",node_definition,true)
 
--- case_of_barrels
--- case_of_scrolls
--- chandelier
--- crates
+node_definition ={
+	description =  "adventure_pack_1:case_of_barrels",
+	drawtype = "mesh",
+        mesh = "case_of_barrels.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"case_of_barrels.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:case_of_barrels","case_of_barrels.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:case_of_scrolls",
+	drawtype = "mesh",
+        mesh = "case_of_scrolls.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"case_of_scrolls.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:case_of_scrolls","case_of_scrolls.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:chandelier",
+	drawtype = "mesh",
+        mesh = "chandelier.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"chandelier.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:chandelier","chandelier.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:crates",
+	drawtype = "mesh",
+        mesh = "crates.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"crates.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:crates","crates.box",node_definition,true)
+
 -- drawing_table
 -- fish_barrel
 -- food_plate

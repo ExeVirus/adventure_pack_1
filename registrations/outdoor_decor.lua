@@ -11,8 +11,27 @@
 -- city_gibbet
 -- city_gibbet_filled
 -- covered_cart
--- crane
--- crane_2
+node_definition ={
+	description =  "adventure_pack_1:crane",
+	drawtype = "mesh",
+        mesh = "crane.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"crane.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:crane","crane.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:crane_2",
+	drawtype = "mesh",
+        mesh = "crane_2.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"crane_2.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:crane_2","crane_2.box",node_definition,true)
 -- food_cart
 -- forge
 -- forge_2
