@@ -51,6 +51,16 @@ autobox.register_node("adventure_pack_1:crane_2","crane_2.box",node_definition,t
 -- scarecrow
 -- scarecrow_2
 -- ship_cannon
+node_definition ={
+	description =  "adventure_pack_1:stack_of_crates",
+	drawtype = "mesh",
+        mesh = "stack_of_crates.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"stack_of_crates.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:stack_of_crates","stack_of_crates.box",node_definition,true)
 -- stone_pillar
 -- stone_tomb
 -- wanted_sign

@@ -209,17 +209,135 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:grandfather_clock","grandfather_clock.box",node_definition,true)
 
--- lantern
--- pen_and_quill
--- plans_table
--- scroll_case
--- scrying_orb
--- small_bookcase
--- small_bookcase_2
--- sofa
--- stack_of_books
--- stack_of_crates
--- store_shelf
--- weapons_case
--- weapons_case_2
+node_definition ={
+	description =  "adventure_pack_1:lantern",
+	drawtype = "mesh",
+        mesh = "lantern.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"lantern.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:lantern","lantern.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:pen_and_quill",
+	drawtype = "mesh",
+        mesh = "pen_and_quill.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"pen_and_quill.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:pen_and_quill","pen_and_quill.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:plans_table",
+	drawtype = "mesh",
+        mesh = "plans_table.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"case_of_barrels.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:plans_table","plans_table.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:scroll_case",
+	drawtype = "mesh",
+        mesh = "scroll_case.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"case_of_barrels.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:scroll_case","scroll_case.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:scrying_orb",
+	drawtype = "mesh",
+        mesh = "scrying_orb.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"scrying_orb.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:scrying_orb","scrying_orb.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:small_bookcase",
+	drawtype = "mesh",
+        mesh = "small_bookcase.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"small_bookcase.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:small_bookcase","small_bookcase.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:small_bookcase_2",
+	drawtype = "mesh",
+        mesh = "small_bookcase_2.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"small_bookcase.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:small_bookcase_2","small_bookcase_2.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:sofa",
+	drawtype = "mesh",
+        mesh = "sofa.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"sofa.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:sofa","sofa.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:stack_of_books",
+	drawtype = "mesh",
+        mesh = "stack_of_books.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"stack_of_books.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:stack_of_books","stack_of_books.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:store_shelf",
+	drawtype = "mesh",
+        mesh = "store_shelf.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"store_shelf.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:store_shelf","store_shelf.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:weapons_case",
+	drawtype = "mesh",
+        mesh = "weapons_case.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"weapons_case.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:weapons_case","weapons_case.box",node_definition,true)
+
+node_definition ={
+	description =  "adventure_pack_1:weapons_case_2",
+	drawtype = "mesh",
+        mesh = "weapons_case_2.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"weapons_case.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:weapons_case_2","weapons_case.box",node_definition,true)
 
