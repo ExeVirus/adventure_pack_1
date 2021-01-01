@@ -1,4 +1,14 @@
--- ballista
+node_definition ={
+	description =  "adventure_pack_1:ballista",
+	drawtype = "mesh",
+        mesh = "ballista.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"ballista.png"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:ballista","ballista.box",node_definition,true)
+
 -- bench
 -- bleachers
 -- bonfire
