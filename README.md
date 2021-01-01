@@ -1,2 +1,2 @@
 # adventure_pack_1
-First of many packs by ExeVirus
+First of many packs compiled by ExeVirus
