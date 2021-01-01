@@ -198,7 +198,17 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:food_plate_3","food_plate.box",node_definition,true)
 
--- grandfather_clock
+node_definition ={
+	description =  "adventure_pack_1:grandfather_clock",
+	drawtype = "mesh",
+        mesh = "grandfather_clock.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"grandfather_clock.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:grandfather_clock","grandfather_clock.box",node_definition,true)
+
 -- lantern
 -- pen_and_quill
 -- plans_table
