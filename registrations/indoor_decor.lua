@@ -10,6 +10,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:armor","armor.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:armor", 1, 0, 1, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:barrel_and_scrolls",
@@ -21,6 +22,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:barrel_and_scrolls","barrel_and_scrolls.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:barrel_and_scrolls", 0, 0, 1, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:bed",
@@ -32,6 +34,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bed","bed.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:bed", 0, 1, 2, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:bed_cot",
@@ -43,6 +46,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bed_cot","bed_cot.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:bed_cot", 0, 0, 2, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:big_stack_of_books",
@@ -54,6 +58,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:big_stack_of_books","big_stack_of_books.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:big_stack_of_books", 1, 1, 1, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:bucket",
@@ -65,6 +70,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bucket","bucket.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:bucket", 0, 2, 0, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:bunk_bed",
@@ -76,6 +82,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:bunk_bed","bunk_bed.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:bunk_bed", 0, 1, 4, 2)
 
 node_definition ={
 	description =  "adventure_pack_1:candlabra",
@@ -87,6 +94,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:candlabra","candlabra.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:candlabra", 1, 0, 0, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:case_of_barrels",
@@ -98,6 +106,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:case_of_barrels","case_of_barrels.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:case_of_barrels", 2, 0, 7, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:case_of_scrolls",
@@ -109,6 +118,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:case_of_scrolls","case_of_scrolls.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:case_of_scrolls", 0, 1, 3, 2)
 
 node_definition ={
 	description =  "adventure_pack_1:chandelier",
@@ -120,6 +130,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:chandelier","chandelier.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:chandelier", 4, 1, 2, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:crates",
@@ -131,6 +142,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:crates","crates.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:crates", 1, 1, 8, 2)
 
 node_definition ={
 	description =  "adventure_pack_1:drawing_table",
@@ -142,6 +154,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:drawing_table","drawing_table.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:drawing_table", 2, 0, 2, 2)
 
 node_definition ={
 	description =  "adventure_pack_1:fish_barrel",
@@ -153,6 +166,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:fish_barrel","fish_barrel.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:fish_barrel", 0, 3, 2, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:food_plate",
@@ -164,6 +178,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:food_plate","food_plate.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:food_plate", 1, 1, 0, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:food_plate_2",
@@ -175,6 +190,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:food_plate_2","food_plate.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:food_plate_2", 1, 1, 0, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:food_plate_3",
@@ -186,6 +202,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:food_plate_3","food_plate.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:food_plate_3", 1, 1, 0, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:grandfather_clock",
@@ -197,6 +214,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:grandfather_clock","grandfather_clock.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:grandfather_clock", 2, 0, 4, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:lantern",
@@ -208,6 +226,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:lantern","lantern.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:lantern", 2, 0, 0, 0)
 
 node_definition ={
 	description =  "adventure_pack_1:pen_and_quill",
@@ -219,6 +238,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:pen_and_quill","pen_and_quill.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:pen_and_quill", 0, 0, 0, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:plans_table",
@@ -230,6 +250,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:plans_table","plans_table.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:plans_table", 2, 0, 2, 2)
 
 node_definition ={
 	description =  "adventure_pack_1:scroll_case",
@@ -241,6 +262,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:scroll_case","scroll_case.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:scroll_case", 0, 0, 2, 3)
 
 node_definition ={
 	description =  "adventure_pack_1:scrying_orb",
@@ -252,6 +274,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:scrying_orb","scrying_orb.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:scrying_orb", 3, 1, 1, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:small_bookcase",
@@ -263,6 +286,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:small_bookcase","small_bookcase.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:small_bookcase", 0, 0, 3, 3)
 
 node_definition ={
 	description =  "adventure_pack_1:small_bookcase_2",
@@ -274,6 +298,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:small_bookcase_2","small_bookcase_2.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:small_bookcase_2", 0, 0, 3, 3)
 
 node_definition ={
 	description =  "adventure_pack_1:sofa",
@@ -285,6 +310,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:sofa","sofa.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:sofa", 1, 0, 1, 4)
 
 node_definition ={
 	description =  "adventure_pack_1:stack_of_books",
@@ -296,6 +322,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:stack_of_books","stack_of_books.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:stack_of_books", 1, 1, 1, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:weapons_case",
@@ -307,6 +334,7 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:weapons_case","weapons_case.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:weapons_case", 4, 1, 4, 1)
 
 node_definition ={
 	description =  "adventure_pack_1:weapons_case_2",
@@ -318,4 +346,5 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:weapons_case_2","weapons_case.box",node_definition,true)
+adv_core.register_object("adventure_pack_1:weapons_case_2", 4, 1, 4, 1)
 

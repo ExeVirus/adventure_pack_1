@@ -3,7 +3,7 @@
 --/    \ ) D (\ \/ / ) _) /    /  )(  ) \/ ( )   / ) _)    ) __//    \( (__  )  (   (_/ / 
 --\_/\_/(____/ \__/ (____)\_)__) (__) \____/(__\_)(____)  (__)  \_/\_/ \___)(__\_)   (__) 
 --
--- Aventure Pack 1 Mod for Adventure_core by ExeVirus
+-- Aventure Pack 1 Mod, an Educational pack for Adventure_core by ExeVirus
 -- Font used in title: Graceful
 --
 
@@ -31,12 +31,4 @@ end
 
 if setting("enable_outdoor_decor", true) then
     dofile(minetest.get_modpath("adventure_pack_1").."/registrations/outdoor_decor.lua")
-end
-
-if setting("enable_structures", true) then
-    dofile(minetest.get_modpath("adventure_pack_1").."/registrations/structures.lua")
-end
-    
-if setting("enable_landscaping", true) then
-    dofile(minetest.get_modpath("adventure_pack_1").."/registrations/landscaping.lua")
 end

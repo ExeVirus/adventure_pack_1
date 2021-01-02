@@ -6,8 +6,3 @@ adventure_pack_1.enable_indoor_decor (Enable Indoor Decor) bool true
 
 adventure_pack_1.enable_outdoor_decor (Enable Outdoor Decor) bool true
 
-adventure_pack_1.enable_landscaping (Enable Landscaping) bool true
-
-adventure_pack_1.enable_structures (Enable Structures) bool true
-
-
