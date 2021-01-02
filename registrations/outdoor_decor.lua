@@ -121,8 +121,18 @@ node_definition ={
 	groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:cart_goods","cart_goods.box",node_definition,true)
--- cart_goods
--- city_gibbet
+
+node_definition ={
+	description =  "adventure_pack_1:city_gibbet",
+	drawtype = "mesh",
+	mesh = "city_gibbet.obj",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	tiles = {"city_gibbet.jpg"},
+	groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:city_gibbet","city_gibbet.box",node_definition,true)
+
 -- city_gibbet_filled
 -- covered_cart
 node_definition ={
