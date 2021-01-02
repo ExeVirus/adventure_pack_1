@@ -1,15 +1,4 @@
 node_definition ={
-	description =  "adventure_pack_1:berry_bush",
-	drawtype = "mesh",
-	mesh = "berry_bush.obj",
-	sunlight_propagates = true,
-	paramtype2 = "facedir",
-	tiles = {"berry_bush.png"},
-	groups = { oddly_breakable_by_hand=2 },
-}
-autobox.register_node("adventure_pack_1:berry_bush","braizer.box",node_definition,true)
-
-node_definition ={
 	description =  "adventure_pack_1:ballista",
 	drawtype = "mesh",
 	mesh = "ballista.obj",
@@ -112,17 +101,6 @@ node_definition ={
 autobox.register_node("adventure_pack_1:cart_empty","cart_empty.box",node_definition,true)
 
 node_definition ={
-	description =  "adventure_pack_1:cart_goods",
-	drawtype = "mesh",
-	mesh = "cart_goods.obj",
-	sunlight_propagates = true,
-	paramtype2 = "facedir",
-	tiles = {"cart_goods.png"},
-	groups = { oddly_breakable_by_hand=2 },
-}
-autobox.register_node("adventure_pack_1:cart_goods","cart_goods.box",node_definition,true)
-
-node_definition ={
 	description =  "adventure_pack_1:city_gibbet",
 	drawtype = "mesh",
 	mesh = "city_gibbet.obj",
@@ -133,8 +111,17 @@ node_definition ={
 }
 autobox.register_node("adventure_pack_1:city_gibbet","city_gibbet.box",node_definition,true)
 
--- city_gibbet_filled
--- covered_cart
+node_definition ={
+	description =  "adventure_pack_1:covered_cart",
+	drawtype = "mesh",
+	mesh = "covered_cart.obj",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	tiles = {"covered_cart.png"},
+	groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:covered_cart","covered_cart.box",node_definition,true)
+
 node_definition ={
 	description =  "adventure_pack_1:crane",
 	drawtype = "mesh",
@@ -156,25 +143,17 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:crane_2","crane_2.box",node_definition,true)
--- food_cart
--- forge
--- forge_2
--- fruit_cart
--- gallows
--- gibbet
--- gibbet_with_skelly
--- guillotine
--- hay_cart
--- haybale
--- lamp_post
--- marble_decoration
--- marble_decoration_2
--- marble_pillar
--- marble_pillar_2
--- mine_cart_full
--- scarecrow
--- scarecrow_2
--- ship_cannon
+
+node_definition ={
+	description =  "adventure_pack_1:marble_decoration",
+	drawtype = "mesh",
+        mesh = "marble_decoration.obj",
+        sunlight_propagates = true,
+        paramtype2 = "facedir",
+        tiles = {"marble_decoration.jpg"},
+        groups = { oddly_breakable_by_hand=2 },
+}
+autobox.register_node("adventure_pack_1:marble_decoration","marble_decoration.box",node_definition,true)
 node_definition ={
 	description =  "adventure_pack_1:stack_of_crates",
 	drawtype = "mesh",
@@ -185,7 +164,4 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:stack_of_crates","stack_of_crates.box",node_definition,true)
--- stone_pillar
--- stone_tomb
--- wanted_sign
--- wooden_lamppost
+

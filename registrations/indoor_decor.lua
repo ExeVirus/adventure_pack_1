@@ -67,17 +67,6 @@ node_definition ={
 autobox.register_node("adventure_pack_1:bucket","bucket.box",node_definition,true)
 
 node_definition ={
-	description =  "adventure_pack_1:bunk_bed_messy",
-	drawtype = "mesh",
-        mesh = "bunk_bed_messy.obj",
-        sunlight_propagates = true,
-        paramtype2 = "facedir",
-        tiles = {"bunk_bed.png"},
-        groups = { oddly_breakable_by_hand=2 },
-}
-autobox.register_node("adventure_pack_1:bunk_bed_messy","bunk_bed.box",node_definition,true)
-
-node_definition ={
 	description =  "adventure_pack_1:bunk_bed",
 	drawtype = "mesh",
         mesh = "bunk_bed.obj",
@@ -307,17 +296,6 @@ node_definition ={
         groups = { oddly_breakable_by_hand=2 },
 }
 autobox.register_node("adventure_pack_1:stack_of_books","stack_of_books.box",node_definition,true)
-
-node_definition ={
-	description =  "adventure_pack_1:store_shelf",
-	drawtype = "mesh",
-        mesh = "store_shelf.obj",
-        sunlight_propagates = true,
-        paramtype2 = "facedir",
-        tiles = {"store_shelf.jpg"},
-        groups = { oddly_breakable_by_hand=2 },
-}
-autobox.register_node("adventure_pack_1:store_shelf","store_shelf.box",node_definition,true)
 
 node_definition ={
 	description =  "adventure_pack_1:weapons_case",
